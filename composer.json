@@ -1,0 +1,21 @@
+{
+    "name": "api/api",
+    "description": "Uma app simples",
+    "type": "project",
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "vinicius Resende Pires",
+            "email": "piresvrp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    }
+}
